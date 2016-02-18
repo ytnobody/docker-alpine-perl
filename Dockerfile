@@ -1,4 +1,4 @@
-BASE alpine:3.3
+FROM alpine:3.3
 MAINTAINER ytnobody <ytnobody@gmail.com>
 
 RUN apk update && apk add gcc make git patch perl curl wget
